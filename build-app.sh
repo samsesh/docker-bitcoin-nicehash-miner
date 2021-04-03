@@ -1,1 +1,1 @@
-docker build -t first087/bitcoin-nicehash-miner app
+docker build -t andersonpids/bitcoin-nicehash-miner app

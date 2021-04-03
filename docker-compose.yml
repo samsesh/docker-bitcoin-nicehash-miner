@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   miner:
-    image: first087/bitcoin-nicehash-miner
+    image: andersonpids/bitcoin-nicehash-miner
     env_file:
       - ./config.env
     restart: always

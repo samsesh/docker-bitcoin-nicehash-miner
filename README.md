@@ -7,7 +7,7 @@ Project build from [Equihash miner for NiceHash official repo](https://github.co
 - Install [docker](https://www.docker.com/)
 
 #### Use run command
-- Create running container command: `docker run -d --name miner first087/bitcoin-nicehash-miner`
+- Create running container command: `docker run -d --name miner andersonpids/bitcoin-nicehash-miner`
 - Remove running container command: `docker rm -f miner`
 - Config your miner by environment option (`-e VARIABLE=VALUE`)
 
@@ -22,7 +22,11 @@ Project build from [Equihash miner for NiceHash official repo](https://github.co
 - Config your miner in **config.env** file
 
 #### Optional
-- Test nicehash server command: `docker run -it --rm first087/bitcoin-nicehash-miner /bin/bash test-server.sh`
+- Test nicehash server command: `docker run -it --rm andersonpids/bitcoin-nicehash-miner /bin/bash test-server.sh`
 
 ## Recommend
 Running on 2+ Core CPU because **Equihash miner for NiceHash** require.
+
+## Project forked from
+
+https://github.com/first087/docker-bitcoin-nicehash-miner

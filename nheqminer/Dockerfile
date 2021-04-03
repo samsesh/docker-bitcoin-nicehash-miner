@@ -1,5 +1,5 @@
-FROM first087/bitcoin-nicehash-miner:base
-LABEL maintainer="first087@gmail.com"
+FROM andersonpids/bitcoin-nicehash-miner:base
+LABEL maintainer="apds.anderson@gmail.com"
 
 RUN git clone -b Linux https://github.com/nicehash/nheqminer.git --depth=1
 
